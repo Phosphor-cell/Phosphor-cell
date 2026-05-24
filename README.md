@@ -34,19 +34,6 @@ Build the foundation before the demo. Measure before optimizing. The boring disc
 
 ---
 
-### Activity
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Phosphor-cell&show_icons=true&theme=transparent&hide_border=true&title_color=c89858&icon_color=c89858&text_color=e8dcc8&hide=contribs&include_all_commits=true&count_private=true" alt="GitHub stats" height="160"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Phosphor-cell&layout=compact&theme=transparent&hide_border=true&title_color=c89858&text_color=e8dcc8&langs_count=8&hide=html,css" alt="Top languages" height="160"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Phosphor-cell&bg_color=00000000&color=e8dcc8&line=c89858&point=c89858&area=true&hide_border=true" alt="Contribution graph" width="100%"/>
-</p>
-
----
-
 ### Open to
 
 - Engineering conversations about systems work, GPU programming, or research tooling
