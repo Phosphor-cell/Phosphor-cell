@@ -7,7 +7,7 @@
   &nbsp;·&nbsp;
   <a href="https://axylith.com"><b>axylith.com</b></a>
   &nbsp;·&nbsp;
-  <a href="mailto:dev@axylith.com"><b>email</b></a>
+  <a href="mailto:contactme@devbhatt.dev"><b>email</b></a>
 </p>
 
 ---
@@ -30,6 +30,12 @@ Build the foundation before the demo. Measure before optimizing. The boring disc
 
 <p align="center">
   <img src=".github/assets/stack.svg" alt="Tech stack" width="100%"/>
+</p>
+
+---
+
+<p align="center">
+  <img src=".github/assets/stats.svg" alt="GitHub activity" width="100%"/>
 </p>
 
 ---
