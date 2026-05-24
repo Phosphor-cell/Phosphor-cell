@@ -5,3 +5,5 @@ dist/* linguist-generated=true
 public/build/* linguist-generated=true
 
 node_modules/* linguist-vendored=true
+*.tsx linguist-generated=true
+*.tsx linguist-generated=true
