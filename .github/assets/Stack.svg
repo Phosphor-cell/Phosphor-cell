@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 200" width="900" height="200" role="img" aria-label="Tech stack">
+  <defs>
+    <linearGradient id="bg-stack" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d0e10"/>
+      <stop offset="100%" stop-color="#13151a"/>
+    </linearGradient>
+    <linearGradient id="acc-stack" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#c89858"/>
+      <stop offset="100%" stop-color="#b88848"/>
+    </linearGradient>
+    <pattern id="grid-stack" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#1f2126" stroke-width="0.5"/>
+    </pattern>
+  </defs>
+
+  <rect width="900" height="200" fill="url(#bg-stack)" rx="6"/>
+  <rect width="900" height="200" fill="url(#grid-stack)" opacity="0.4"/>
+
+  <text x="30" y="32" font-family="JetBrains Mono, monospace" font-size="10" fill="#5a5249" letter-spacing="2">
+    STACK · TOOLS · DAILY DRIVERS
+  </text>
+  <line x1="30" y1="42" x2="870" y2="42" stroke="#2a2d34" stroke-width="1"/>
+
+  <!-- 4 columns of categorized items -->
+  <g font-family="JetBrains Mono, monospace">
+    <!-- Column 1: Primary -->
+    <text x="30" y="72" fill="url(#acc-stack)" font-size="10" letter-spacing="1.5">PRIMARY</text>
+    <text x="30" y="96"  fill="#e8dcc8" font-size="13">C++20</text>
+    <text x="30" y="116" fill="#8b8275" font-size="11">Vulkan 1.3</text>
+    <text x="30" y="136" fill="#8b8275" font-size="11">CUDA</text>
+    <text x="30" y="156" fill="#8b8275" font-size="11">SIMD asm</text>
+    <text x="30" y="176" fill="#8b8275" font-size="11">SPIR-V / GLSL</text>
+
+    <!-- Column 2: Tooling -->
+    <text x="240" y="72" fill="#7a7268" font-size="10" letter-spacing="1.5">TOOLING</text>
+    <text x="240" y="96"  fill="#e8dcc8" font-size="13">Python 3</text>
+    <text x="240" y="116" fill="#8b8275" font-size="11">CMake / Ninja</text>
+    <text x="240" y="136" fill="#8b8275" font-size="11">Clang / GCC</text>
+    <text x="240" y="156" fill="#8b8275" font-size="11">sanitizers</text>
+    <text x="240" y="176" fill="#8b8275" font-size="11">Valgrind</text>
+
+    <!-- Column 3: Platform -->
+    <text x="450" y="72" fill="#7a7268" font-size="10" letter-spacing="1.5">PLATFORM</text>
+    <text x="450" y="96"  fill="#e8dcc8" font-size="13">Linux</text>
+    <text x="450" y="116" fill="#8b8275" font-size="11">X11 / Wayland</text>
+    <text x="450" y="136" fill="#8b8275" font-size="11">Docker</text>
+    <text x="450" y="156" fill="#8b8275" font-size="11">GitHub Actions</text>
+    <text x="450" y="176" fill="#8b8275" font-size="11">Cloudflare</text>
+
+    <!-- Column 4: Adjacent -->
+    <text x="660" y="72" fill="#7a7268" font-size="10" letter-spacing="1.5">ADJACENT</text>
+    <text x="660" y="96"  fill="#e8dcc8" font-size="13">JetBrains</text>
+    <text x="660" y="116" fill="#8b8275" font-size="11">Git / GitHub</text>
+    <text x="660" y="136" fill="#8b8275" font-size="11">FastAPI</text>
+    <text x="660" y="156" fill="#8b8275" font-size="11">PyTorch</text>
+    <text x="660" y="176" fill="#8b8275" font-size="11">scikit-learn</text>
+  </g>
+
+  <!-- Right-edge accent -->
+  <rect x="897" y="20" width="3" height="160" fill="url(#acc-stack)" opacity="0.3"/>
+</svg>
