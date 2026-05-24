@@ -97,10 +97,18 @@ def fetch_stats() -> dict:
     repos = user["repositories"]["nodes"]
 
     # Aggregate per-language byte sizes across all owned repos.
-    # Excludes a few that skew the picture (CSS, HTML in particular —
-    # these dominate when you commit generated docs but don't reflect
-    # what you "do").
-    EXCLUDE = {"HTML", "CSS", "SCSS", "TeX", "Roff"}
+    # Excludes languages that skew the picture because they're typically
+    # generated, vendored, or boilerplate rather than authored work:
+    #   HTML/CSS/SCSS — generated docs sites, themes
+    #   TeX/Roff      — man pages, generated docs
+    #   JavaScript    — Emscripten output (compiled from C++)
+    #   Svelte        — old templated project boilerplate
+    # For repos where these *are* authored, fix with .gitattributes
+    # (linguist-generated=true) and remove from this list.
+    EXCLUDE = {
+        "HTML", "CSS", "SCSS", "TeX", "Roff",
+        "JavaScript", "Svelte",
+    }
     lang_bytes: dict[str, int] = {}
     lang_colors: dict[str, str] = {}
     total_stars = 0
