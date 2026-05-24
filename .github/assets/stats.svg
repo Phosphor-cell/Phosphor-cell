@@ -25,7 +25,7 @@
   <g font-family="JetBrains Mono, monospace">
     <g transform="translate(30, 60)">
       <text x="0" y="14" font-size="9" fill="#5a5249" letter-spacing="1.5">COMMITS</text>
-      <text x="0" y="48" font-size="32" fill="url(#acc-stats)" font-weight="500">151</text>
+      <text x="0" y="48" font-size="32" fill="url(#acc-stats)" font-weight="500">174</text>
     </g>
     <g transform="translate(240, 60)">
       <text x="0" y="14" font-size="9" fill="#5a5249" letter-spacing="1.5">PULL REQUESTS</text>
@@ -45,7 +45,7 @@
   <g font-family="JetBrains Mono, monospace" font-size="11" fill="#8b8275">
     <text x="30"  y="135"><tspan fill="#5a5249">issues opened</tspan><tspan dx="8" fill="#e8dcc8">0</tspan></text>
     <text x="240" y="135"><tspan fill="#5a5249">PRs reviewed</tspan><tspan dx="8" fill="#e8dcc8">0</tspan></text>
-    <text x="450" y="135"><tspan fill="#5a5249">total contributions</tspan><tspan dx="8" fill="#e8dcc8">243</tspan></text>
+    <text x="450" y="135"><tspan fill="#5a5249">total contributions</tspan><tspan dx="8" fill="#e8dcc8">268</tspan></text>
   </g>
 
   <!-- Language breakdown -->
