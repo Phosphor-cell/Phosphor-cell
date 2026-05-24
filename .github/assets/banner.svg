@@ -48,8 +48,9 @@
     <text x="48" y="82">02</text>
     <text x="48" y="106">03</text>
     <text x="48" y="142">04</text>
-    <text x="48" y="190">05</text>
-    <text x="48" y="226">06</text>
+    <text x="48" y="166">05</text>
+    <text x="48" y="190">06</text>
+    <text x="48" y="226">07</text>
   </g>
 
   <line x1="66" y1="35" x2="66" y2="235" stroke="#1f2126" stroke-width="1"/>
