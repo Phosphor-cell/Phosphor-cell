@@ -1,0 +1,27 @@
+version: 2
+
+# Dependabot config for the profile repo.
+# This repo only has GitHub Actions dependencies; Python uses stdlib
+# only. If we add pip/npm/cargo deps later, add corresponding sections.
+
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "monthly"
+      day: "monday"
+      time: "10:00"
+      timezone: "America/Edmonton"
+    open-pull-requests-limit: 3
+    commit-message:
+      prefix: "ci"
+      include: "scope"
+    labels:
+      - "dependencies"
+      - "github-actions"
+    # Group all action updates into a single PR rather than one PR per action.
+    # For a profile repo this keeps noise minimal.
+    groups:
+      actions:
+        patterns:
+          - "*"
