@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 240" width="900" height="240" role="img" aria-label="GitHub stats for Phosphor-cell">
+  <defs>
+    <linearGradient id="bg-stats" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d0e10"/>
+      <stop offset="100%" stop-color="#13151a"/>
+    </linearGradient>
+    <linearGradient id="acc-stats" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#c89858"/>
+      <stop offset="100%" stop-color="#b88848"/>
+    </linearGradient>
+    <pattern id="grid-stats" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#1f2126" stroke-width="0.5"/>
+    </pattern>
+  </defs>
+
+  <rect width="900" height="240" fill="url(#bg-stats)" rx="6"/>
+  <rect width="900" height="240" fill="url(#grid-stats)" opacity="0.4"/>
+
+  <text x="30" y="32" font-family="JetBrains Mono, monospace" font-size="10" fill="#5a5249" letter-spacing="2">
+    GITHUB ACTIVITY · LAST 12 MONTHS · UPDATED 2026-05-24
+  </text>
+  <line x1="30" y1="42" x2="870" y2="42" stroke="#2a2d34" stroke-width="1"/>
+
+  <!-- Four stat cells across the top -->
+  <g font-family="JetBrains Mono, monospace">
+    <g transform="translate(30, 60)">
+      <text x="0" y="14" font-size="9" fill="#5a5249" letter-spacing="1.5">COMMITS</text>
+      <text x="0" y="48" font-size="32" fill="url(#acc-stats)" font-weight="500">143</text>
+    </g>
+    <g transform="translate(240, 60)">
+      <text x="0" y="14" font-size="9" fill="#5a5249" letter-spacing="1.5">PULL REQUESTS</text>
+      <text x="0" y="48" font-size="32" fill="url(#acc-stats)" font-weight="500">9</text>
+    </g>
+    <g transform="translate(450, 60)">
+      <text x="0" y="14" font-size="9" fill="#5a5249" letter-spacing="1.5">STARS EARNED</text>
+      <text x="0" y="48" font-size="32" fill="url(#acc-stats)" font-weight="500">0</text>
+    </g>
+    <g transform="translate(660, 60)">
+      <text x="0" y="14" font-size="9" fill="#5a5249" letter-spacing="1.5">REPOSITORIES</text>
+      <text x="0" y="48" font-size="32" fill="url(#acc-stats)" font-weight="500">5</text>
+    </g>
+  </g>
+
+  <!-- Secondary row: issues, reviews, total contribs -->
+  <g font-family="JetBrains Mono, monospace" font-size="11" fill="#8b8275">
+    <text x="30"  y="135"><tspan fill="#5a5249">issues opened</tspan><tspan dx="8" fill="#e8dcc8">0</tspan></text>
+    <text x="240" y="135"><tspan fill="#5a5249">PRs reviewed</tspan><tspan dx="8" fill="#e8dcc8">0</tspan></text>
+    <text x="450" y="135"><tspan fill="#5a5249">total contributions</tspan><tspan dx="8" fill="#e8dcc8">235</tspan></text>
+  </g>
+
+  <!-- Language breakdown -->
+  <text x="30" y="165" font-family="JetBrains Mono, monospace" font-size="10" fill="#5a5249" letter-spacing="1.5">
+    LANGUAGES
+  </text>
+
+  <!-- Background of the language bar -->
+  <rect x="80" y="175" width="740" height="8" rx="3" fill="#1a1c20" stroke="#2a2d34" stroke-width="0.5"/>
+  <rect x="80.0" y="175" width="501.9" height="8" fill="#f1e05a" opacity="0.85"/>
+  <rect x="581.9" y="175" width="123.3" height="8" fill="#3572A5" opacity="0.85"/>
+  <rect x="705.2" y="175" width="89.0" height="8" fill="#f34b7d" opacity="0.85"/>
+  <rect x="794.2" y="175" width="24.7" height="8" fill="#ff3e00" opacity="0.85"/>
+  <rect x="818.9" y="175" width="1.1" height="8" fill="#3178c6" opacity="0.85"/>
+
+  <!-- Language legend -->
+  <circle cx="85" cy="200" r="3.5" fill="#f1e05a" opacity="0.85"/><text x="95" y="204" font-family="JetBrains Mono, monospace" font-size="10" fill="#a8a098">JavaScript <tspan fill="#5a5249">68%</tspan></text>
+  <circle cx="205" cy="200" r="3.5" fill="#3572A5" opacity="0.85"/><text x="215" y="204" font-family="JetBrains Mono, monospace" font-size="10" fill="#a8a098">Python <tspan fill="#5a5249">17%</tspan></text>
+  <circle cx="297" cy="200" r="3.5" fill="#f34b7d" opacity="0.85"/><text x="307" y="204" font-family="JetBrains Mono, monospace" font-size="10" fill="#a8a098">C++ <tspan fill="#5a5249">12%</tspan></text>
+  <circle cx="368" cy="200" r="3.5" fill="#ff3e00" opacity="0.85"/><text x="378" y="204" font-family="JetBrains Mono, monospace" font-size="10" fill="#a8a098">Svelte <tspan fill="#5a5249">3%</tspan></text>
+  <circle cx="460" cy="200" r="3.5" fill="#3178c6" opacity="0.85"/><text x="470" y="204" font-family="JetBrains Mono, monospace" font-size="10" fill="#a8a098">TypeScript <tspan fill="#5a5249">0%</tspan></text>
+
+  <!-- Right edge accent -->
+  <rect x="897" y="20" width="3" height="200" fill="url(#acc-stats)" opacity="0.3"/>
+</svg>
