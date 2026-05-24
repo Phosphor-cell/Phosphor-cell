@@ -66,7 +66,6 @@ C++20 for everything performance-sensitive. Python for tooling, scripts, and the
 - Coffee (in Calgary) or video calls (anywhere) with people building real things
 - Contributors to Axylith once the architecture stabilizes
 
-Not currently looking for full-time roles &mdash; building Axylith full-time.
 
 <p align="center">
   <sub><sub>&middot;</sub></sub>
