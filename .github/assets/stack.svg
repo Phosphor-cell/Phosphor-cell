@@ -49,8 +49,8 @@
 
     <!-- Column 4: Adjacent -->
     <text x="660" y="72" fill="#7a7268" font-size="10" letter-spacing="1.5">ADJACENT</text>
-    <text x="660" y="96"  fill="#e8dcc8" font-size="13">JetBrains</text>
-    <text x="660" y="116" fill="#8b8275" font-size="11">Git / GitHub</text>
+    <text x="660" y="96"  fill="#e8dcc8" font-size="13">GitHub</text>
+    <text x="660" y="116" fill="#8b8275" font-size="11">Google Cloud</text>
     <text x="660" y="136" fill="#8b8275" font-size="11">FastAPI</text>
     <text x="660" y="156" fill="#8b8275" font-size="11">PyTorch</text>
     <text x="660" y="176" fill="#8b8275" font-size="11">scikit-learn</text>
