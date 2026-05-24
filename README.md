@@ -16,7 +16,7 @@
 
 Third-year CS and Data Science dual-major at Mount Royal University. Calgary, Canada.
 
-Deep work in GPU programming, SIMD, CUDA, and systems architecture. Previously built [ShapeSynth](https://github.com/Phosphor-cell), a GPU-native quad retopology engine that won a $15K pitch competition.
+Deep work in GPU programming, SIMD, CUDA, and systems architecture. Previously built [ShapeSynth](https://shapesynth.com/), a GPU-native quad retopology engine that won a $15K pitch competition.
 
 Build the foundation before the demo. Measure before optimizing. The boring discipline of `static_assert` on struct sizes, sanitizer matrices, and atomic file writes matters more than novel algorithms most days. Direct communication, honest pushback, iteration over speculation.
 
