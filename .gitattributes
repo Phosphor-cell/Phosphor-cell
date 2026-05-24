@@ -1,9 +1,7 @@
-# Emscripten output is compiled C++, not authored JavaScript
 *.js linguist-generated=true
 *.wasm linguist-generated=true
 build/* linguist-generated=true
 dist/* linguist-generated=true
 public/build/* linguist-generated=true
 
-# If you have a Svelte project where most code is vendored
 node_modules/* linguist-vendored=true
