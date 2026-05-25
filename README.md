@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://devbhatt.dev"><b>devbhatt.dev</b></a>
   &nbsp;·&nbsp;
-  <a href="https://axylith.com"><b>axylith.com</b></a>
+  <a href="https://axylith.com"><b>axylith.net</b></a>
   &nbsp;·&nbsp;
   <a href="mailto:contactme@devbhatt.dev"><b>email</b></a>
 </p>
