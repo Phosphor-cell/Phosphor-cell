@@ -17,7 +17,7 @@
   <rect width="900" height="240" fill="url(#grid-stats)" opacity="0.4"/>
 
   <text x="30" y="32" font-family="JetBrains Mono, monospace" font-size="10" fill="#5a5249" letter-spacing="2">
-    GITHUB ACTIVITY · LAST 12 MONTHS · UPDATED 2026-06-15
+    GITHUB ACTIVITY · LAST 12 MONTHS · UPDATED 2026-06-16
   </text>
   <line x1="30" y1="42" x2="870" y2="42" stroke="#2a2d34" stroke-width="1"/>
 
@@ -25,7 +25,7 @@
   <g font-family="JetBrains Mono, monospace">
     <g transform="translate(30, 60)">
       <text x="0" y="14" font-size="9" fill="#5a5249" letter-spacing="1.5">COMMITS</text>
-      <text x="0" y="48" font-size="32" fill="url(#acc-stats)" font-weight="500">180</text>
+      <text x="0" y="48" font-size="32" fill="url(#acc-stats)" font-weight="500">181</text>
     </g>
     <g transform="translate(240, 60)">
       <text x="0" y="14" font-size="9" fill="#5a5249" letter-spacing="1.5">PULL REQUESTS</text>
@@ -33,11 +33,11 @@
     </g>
     <g transform="translate(450, 60)">
       <text x="0" y="14" font-size="9" fill="#5a5249" letter-spacing="1.5">STARS EARNED</text>
-      <text x="0" y="48" font-size="32" fill="url(#acc-stats)" font-weight="500">0</text>
+      <text x="0" y="48" font-size="32" fill="url(#acc-stats)" font-weight="500">1</text>
     </g>
     <g transform="translate(660, 60)">
       <text x="0" y="14" font-size="9" fill="#5a5249" letter-spacing="1.5">REPOSITORIES</text>
-      <text x="0" y="48" font-size="32" fill="url(#acc-stats)" font-weight="500">5</text>
+      <text x="0" y="48" font-size="32" fill="url(#acc-stats)" font-weight="500">6</text>
     </g>
   </g>
 
@@ -45,7 +45,7 @@
   <g font-family="JetBrains Mono, monospace" font-size="11" fill="#8b8275">
     <text x="30"  y="135"><tspan fill="#5a5249">issues opened</tspan><tspan dx="8" fill="#e8dcc8">0</tspan></text>
     <text x="240" y="135"><tspan fill="#5a5249">PRs reviewed</tspan><tspan dx="8" fill="#e8dcc8">0</tspan></text>
-    <text x="450" y="135"><tspan fill="#5a5249">total contributions</tspan><tspan dx="8" fill="#e8dcc8">278</tspan></text>
+    <text x="450" y="135"><tspan fill="#5a5249">total contributions</tspan><tspan dx="8" fill="#e8dcc8">280</tspan></text>
   </g>
 
   <!-- Language breakdown -->
