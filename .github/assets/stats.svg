@@ -17,7 +17,7 @@
   <rect width="900" height="240" fill="url(#grid-stats)" opacity="0.4"/>
 
   <text x="30" y="32" font-family="JetBrains Mono, monospace" font-size="10" fill="#5a5249" letter-spacing="2">
-    GITHUB ACTIVITY · LAST 12 MONTHS · UPDATED 2026-07-21
+    GITHUB ACTIVITY · LAST 12 MONTHS · UPDATED 2026-07-22
   </text>
   <line x1="30" y1="42" x2="870" y2="42" stroke="#2a2d34" stroke-width="1"/>
 
